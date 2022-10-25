@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84E01A7A290875F100EF981E /* modified lesson 2.8 Resume App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "modified lesson 2.8 Resume App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E01A7A290875F100EF981E /* MyResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E01A7D290875F100EF981E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E01A7F290875F100EF981E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84E01A81290875F100EF981E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +24,7 @@
 		84E01A86290875F300EF981E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E01A89290875F300EF981E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E01A8B290875F300EF981E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E01A91290877EA00EF981E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		84E01A71290875F100EF981E = {
 			isa = PBXGroup;
 			children = (
+				84E01A91290877EA00EF981E /* README.md */,
 				84E01A7C290875F100EF981E /* modified lesson 2.8 Resume App */,
 				84E01A7B290875F100EF981E /* Products */,
 			);
@@ -48,7 +50,7 @@
 		84E01A7B290875F100EF981E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84E01A7A290875F100EF981E /* modified lesson 2.8 Resume App.app */,
+				84E01A7A290875F100EF981E /* MyResume.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84E01A79290875F100EF981E /* modified lesson 2.8 Resume App */ = {
+		84E01A79290875F100EF981E /* MyResume */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84E01A8E290875F300EF981E /* Build configuration list for PBXNativeTarget "modified lesson 2.8 Resume App" */;
+			buildConfigurationList = 84E01A8E290875F300EF981E /* Build configuration list for PBXNativeTarget "MyResume" */;
 			buildPhases = (
 				84E01A76290875F100EF981E /* Sources */,
 				84E01A77290875F100EF981E /* Frameworks */,
@@ -82,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = "modified lesson 2.8 Resume App";
+			name = MyResume;
 			productName = "modified lesson 2.8 Resume App";
-			productReference = 84E01A7A290875F100EF981E /* modified lesson 2.8 Resume App.app */;
+			productReference = 84E01A7A290875F100EF981E /* MyResume.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84E01A75290875F100EF981E /* Build configuration list for PBXProject "modified lesson 2.8 Resume App" */;
+			buildConfigurationList = 84E01A75290875F100EF981E /* Build configuration list for PBXProject "MyResume" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84E01A79290875F100EF981E /* modified lesson 2.8 Resume App */,
+				84E01A79290875F100EF981E /* MyResume */,
 			);
 		};
 /* End PBXProject section */
@@ -339,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84E01A75290875F100EF981E /* Build configuration list for PBXProject "modified lesson 2.8 Resume App" */ = {
+		84E01A75290875F100EF981E /* Build configuration list for PBXProject "MyResume" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84E01A8C290875F300EF981E /* Debug */,
@@ -348,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84E01A8E290875F300EF981E /* Build configuration list for PBXNativeTarget "modified lesson 2.8 Resume App" */ = {
+		84E01A8E290875F300EF981E /* Build configuration list for PBXNativeTarget "MyResume" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84E01A8F290875F300EF981E /* Debug */,
